@@ -1,4 +1,4 @@
-## Build Fast-RTPS libraries binaries
+## Build Fast-RTPS libraries & binaries
 
 Primarily for testing pubsub macvlan across networks.
 
@@ -19,4 +19,9 @@ Once build is done
 cd into `installed_directory/installs/`
 move `fast-rtps` into this directory, then execute:
 
-build-full-project.sh 
+`build-full-project.sh`
+
+You can use the docker container 
+
+e.g.
+`docker run -it --rm --name="pubsubtest"  -it fastrtps_test`
