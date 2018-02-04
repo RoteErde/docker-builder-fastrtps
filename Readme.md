@@ -19,7 +19,7 @@ Once build is done
 cd into `installed_directory/installs/`
 move `fast-rtps` into this directory, then execute:
 
-`build-full-project.sh`
+`build-with-fastrtps-bin.sh`
 
 You can use the docker container 
 
